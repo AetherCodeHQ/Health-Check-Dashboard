@@ -6,7 +6,7 @@ Thank you for your interest in contributing! 🎉
 
 ### 1. Fork the Repository
 ```bash
-git clone https://github.com/Qyroxen/Health-Check-Dashboard.git
+git clone https://github.com/AetherCodeHQ/Health-Check-Dashboard.git
 cd Health-Check-Dashboard
 ```
 

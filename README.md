@@ -7,7 +7,7 @@
 ![Lint](https://img.shields.io/badge/GolangCI--Lint-Passing-00ADD8?style=for-the-badge)
 ![Dependabot](https://img.shields.io/badge/Dependabot-Enabled-025E9C?style=for-the-badge&logo=dependabot&logoColor=white)
 
-> Health-Check-Dashboard - Open source tool by Qyroxen
+> Health-Check-Dashboard - Open source tool by AetherCodeHQ
 
 `cli` `dashboard` `golang` `health` `monitoring`
 
@@ -30,7 +30,7 @@
 
 ### Install from source
 ```bash
-git clone https://github.com/Qyroxen/Health-Check-Dashboard.git
+git clone https://github.com/AetherCodeHQ/Health-Check-Dashboard.git
 cd Health-Check-Dashboard
 go build -o Health-Check-Dashboard .
 ```
@@ -95,7 +95,7 @@ go build -o Health-Check-Dashboard .
 
 ```bash
 # Clone the repo
-git clone https://github.com/Qyroxen/Health-Check-Dashboard.git
+git clone https://github.com/AetherCodeHQ/Health-Check-Dashboard.git
 cd Health-Check-Dashboard
 
 # Build
@@ -123,5 +123,5 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ---
 
 <p align="center">
-  Built with ❤️ by <a href="https://github.com/Qyroxen">AetherCode</a> • <a href="https://github.com/AetherCode-Core">AetherCode-Core</a>
+  Built with ❤️ by <a href="https://github.com/AetherCodeHQ">AetherCode</a> • <a href="https://github.com/AetherCode-Core">AetherCode-Core</a>
 </p>
