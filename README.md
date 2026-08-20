@@ -1,8 +1,14 @@
 # Health Check Dashboard
 
-![CI](https://github.com/Qyroxen/Health-Check-Dashboard/actions/workflows/ci.yml/badge.svg) ![Go](https://img.shields.io/badge/Go-1.23+-00ADD8?style=flat&logo=go) ![License](https://img.shields.io/badge/License-MIT-yellow.svg) ![Stars](https://img.shields.io/github/stars/Qyroxen/Health-Check-Dashboard?style=social)
+![CI](https://github.com/Qyroxen/Health-Check-Dashboard/actions/workflows/ci.yml/badge.svg)
+![CodeQL](https://github.com/Qyroxen/Health-Check-Dashboard/actions/workflows/codeql.yml/badge.svg)
+![Go](https://img.shields.io/badge/Go-1.23+-00ADD8?style=flat&logo=go)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Stars](https://img.shields.io/github/stars/Qyroxen/Health-Check-Dashboard?style=social)
+![Issues](https://img.shields.io/github/issues/Qyroxen/Health-Check-Dashboard)
+![PRs](https://img.shields.io/github/issues-pr/Qyroxen/Health-Check-Dashboard)
 
-> A powerful CLI tool built with Go
+> A production-ready CLI tool built with Go
 
 [![Star Badge](https://img.shields.io/github/stars/Qyroxen/Health-Check-Dashboard?style=social)](https://github.com/Qyroxen/Health-Check-Dashboard/stargazers)
 
@@ -16,6 +22,8 @@ Health Check Dashboard is a production-ready CLI tool built with Go. It provides
 - Beautiful CLI with colored output
 - Comprehensive documentation
 - GitHub Actions CI/CD
+- CodeQL security analysis
+- Dependabot for dependency updates
 - MIT Licensed
 - Fully offline - zero cloud dependency
 
@@ -64,12 +72,19 @@ go test ./...
 go build -o healthcheckdashboard .
 
 # Lint
-go vet ./...
+golangci-lint run
+
+# Security scan
+codeql analyze
 ```
 
 ## Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+## Security
+
+For security vulnerabilities, please see [SECURITY.md](SECURITY.md).
 
 ## License
 
@@ -83,5 +98,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   </a>
   <a href="https://github.com/Qyroxen/Health-Check-Dashboard/forks">
     <img src="https://img.shields.io/github/forks/Qyroxen/Health-Check-Dashboard?style=social" alt="Fork this repo">
+  </a>
+  <a href="https://github.com/Qyroxen/Health-Check-Dashboard/issues">
+    <img src="https://img.shields.io/github/issues/Qyroxen/Health-Check-Dashboard" alt="Issues">
+  </a>
+  <a href="https://github.com/Qyroxen/Health-Check-Dashboard/pulls">
+    <img src="https://img.shields.io/github/issues-pr/Qyroxen/Health-Check-Dashboard" alt="Pull Requests">
   </a>
 </p>
